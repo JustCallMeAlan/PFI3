@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+ android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" android:background="#B5E61D">
+
+<RelativeLayout android:id="@+id/relativeLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center_horizontal">
+<se.mah.k3.alan.cheng.pfi_assignment_3_5.Moles android:text="Button" android:layout_alignParentTop="true" android:layout_height="wrap_content" android:id="@+id/button1" android:layout_width="wrap_content"/>
+<se.mah.k3.alan.cheng.pfi_assignment_3_5.Moles android:text="Button" android:layout_below="@+id/button1" android:layout_height="wrap_content" android:id="@+id/button4" android:layout_width="wrap_content" android:layout_alignLeft="@+id/button1" android:layout_alignRight="@+id/button1"/>
+<se.mah.k3.alan.cheng.pfi_assignment_3_5.Moles android:text="Button" android:layout_below="@+id/button4" android:layout_height="wrap_content" android:id="@+id/button7" android:layout_width="wrap_content" android:layout_alignLeft="@+id/button4" android:layout_alignRight="@+id/button4"/>
+<se.mah.k3.alan.cheng.pfi_assignment_3_5.Moles android:layout_toRightOf="@+id/button1" android:text="Button" android:layout_height="wrap_content" android:id="@+id/button2" android:layout_width="wrap_content" android:layout_alignTop="@+id/button1" android:layout_alignBottom="@+id/button1"/>
+<se.mah.k3.alan.cheng.pfi_assignment_3_5.Moles android:text="Button" android:layout_below="@+id/button2" android:layout_height="wrap_content" android:id="@+id/button5" android:layout_width="wrap_content" android:layout_alignLeft="@+id/button2" android:layout_alignRight="@+id/button2"/>
+<se.mah.k3.alan.cheng.pfi_assignment_3_5.Moles android:text="Button" android:layout_below="@+id/button5" android:layout_height="wrap_content" android:id="@+id/button8" android:layout_width="wrap_content" android:layout_alignLeft="@+id/button5" android:layout_alignRight="@+id/button5"/>
+<se.mah.k3.alan.cheng.pfi_assignment_3_5.Moles android:layout_toRightOf="@+id/button2" android:text="Button" android:layout_height="wrap_content" android:id="@+id/button3" android:layout_width="wrap_content" android:layout_alignTop="@+id/button2" android:layout_alignBottom="@+id/button2"/>
+<se.mah.k3.alan.cheng.pfi_assignment_3_5.Moles android:text="Button" android:layout_below="@+id/button3" android:layout_height="wrap_content" android:id="@+id/button6" android:layout_width="wrap_content" android:layout_alignLeft="@+id/button3" android:layout_alignRight="@+id/button3"/>
+<se.mah.k3.alan.cheng.pfi_assignment_3_5.Moles android:text="Button" android:layout_below="@+id/button6" android:layout_height="wrap_content" android:id="@+id/button9" android:layout_width="wrap_content" android:layout_alignLeft="@+id/button6" android:layout_alignRight="@+id/button6"/>
+</RelativeLayout>
+<LinearLayout android:gravity="center_horizontal" android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="fill_parent">
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Smash a troll!" android:id="@+id/textView1" android:textSize="10pt" android:textColor="#CC6600"/>
+</LinearLayout>
+<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_width="fill_parent">
+<Button android:gravity="center_horizontal" android:text="start" android:id="@+id/button10" android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+</LinearLayout>
+</LinearLayout>
