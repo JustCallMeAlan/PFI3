@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:baselineAligned="true"
+  android:background="#336633" android:orientation="horizontal">
+    <RelativeLayout android:layout_width="wrap_content" 
+    android:id="@+id/relativeLayout1" 
+    android:layout_height="wrap_content">
+        
+        <EditText 
+        android:layout_marginLeft="10dip" 
+        android:layout_marginRight="10dip"
+        android:layout_height="wrap_content" 
+        android:id="@+id/editText1" 
+        android:hint="Username" 
+        android:layout_width="fill_parent"></EditText>
+        
+        <EditText  
+        android:layout_marginRight="10dip" 
+        android:id="@+id/editText2" 
+        android:layout_width="fill_parent" 
+        android:hint="Password" 
+        android:layout_height="wrap_content" 
+        android:layout_below="@+id/editText1" 
+        android:layout_alignLeft="@+id/editText1"></EditText>
+        
+        
+        
+        <Button android:id="@+id/loginbutton1" 
+        android:text="Login" 
+        android:layout_marginLeft="10dip" 
+        android:layout_marginRight="10dip"
+        android:clickable="true" 
+        android:typeface="normal" 
+        android:textSize="7pt" 
+        android:layout_height="wrap_content" 
+        android:layout_below="@+id/editText2" 
+        android:layout_alignLeft="@+id/editText2" 
+        android:layout_alignRight="@+id/editText2" 
+        android:layout_width="wrap_content"></Button>
+    </RelativeLayout>
+</LinearLayout>
